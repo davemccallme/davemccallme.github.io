@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+
+  <meta charset="utf-8"> 
+
+  <title>Function library example</title> 
+
+  <style> 
+
+    input { 
+
+      font-size: 2em; 
+
+      margin: 10px 1px 0; 
+
+    } 
+
+  </style> 
+
+</head> 
+
+<body> 
+
+  
+
+  <input class="numberInput" type="text"> 
+
+  <p></p> 
+
+  
+
+  <script> 
+
+    const input = document.querySelector('.numberInput'); 
+
+    const para = document.querySelector('p'); 
+
+  
+
+        function circumference(diam) { 
+
+    return Math.PI * diam; 
+
+    } 
+
+  
+
+    function raidus(diam) { 
+
+    return diam/2; 
+
+    } 
+
+  
+
+    function area(diam) { 
+
+    return (Math.PI*(diam/2)*(diam/2));  // pi*r^2 = area 
+
+    } 
+
+  
+
+    input.addEventListener('change', () => { 
+
+        const diam = parseFloat(input.value); 
+
+        if (isNaN(diam)) { 
+
+            para.textContent = 'You need to enter a number!'; 
+
+        } else { 
+
+            para.textContent = `${diam} circumference is ${circumference(diam)}. `; 
+
+            para.textContent += `${diam} radius is ${radius(diam)}. `; 
+
+            para.textContent += `${diam} area is ${area(diam)}. `; 
+
+        } 
+
+    }); 
+
+  
+
+  
+
+  
+
+  
+
+  </script> 
+
+</body> 
+
+</html> 
