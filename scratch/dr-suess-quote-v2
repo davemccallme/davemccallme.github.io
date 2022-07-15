@@ -1,0 +1,23 @@
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Test_your_skills:_Strings
+
+const quote = 'I dO nOT lIke gREen eGgS anD HAM';
+
+// Add your code here
+lowerCaseQuote = quote.toLowerCase();
+firstLetter = quote.slice(0,1);
+firstLetterCap = firstLetter.toUpperCase();
+newLowerCaseQuote = lowerCaseQuote.replace('green eggs and ham','white rice and bread')
+finalQuote = `${firstLetterCap}${newLowerCaseQuote.slice(1)}.` 
+
+
+// Don't edit the code below here!
+
+section.innerHTML = ' ';
+const para1 = document.createElement('p');
+para1.textContent = fixedQuote;
+const para2 = document.createElement('p');
+para2.textContent = finalQuote;
+
+section.appendChild(para1);
+section.appendChild(para2);
+    
