@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -62,6 +62,7 @@
         float: left;
         margin: 0 20px 20px 0;
         max-width: 100%;
+        border: 1px #ccc;
       }
 
       /* further info links */
@@ -101,13 +102,13 @@
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-        <img src="C:\Users\admin\Documents\GitHub\davemccallme.github.io\scratch\splash-page\firefox_logo-only_RGB-120.png" alt="firefox thumbnail" width="120" height="90">
+        <img src="C:/Users/admin/Documents/GitHub/davemccallme.github.io/scratch/splash-page/firefox_logo-only_RGB-120.png" alt="firefox thumbnail" width="120" height="90">
     </header>
 
     <main>
       <article>
         <!-- insert iframe from youtube -->
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h2>Rocking the free web</h2>
 
         <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
@@ -118,23 +119,47 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+            <picture>
+                <source media="(main-width:500px)" srcset="C:/Users/admin/Documents/GitHub/davemccallme.github.io/scratch/splash-page/firefox_logo-only_RGB-120.png">
+               <img src="firefox_logo-only_RGB-400.png"
+                alt="mozilla logo">
+             </picture> 
         </a>
+
         <a href="https://www.mozilla.org/">
-          <img>
+            <picture>
+                <source media="(main-width:500px)" srcset="mozilla-dinosaur-head-120.png">
+                <img src="mozilla-dinosaur-head-400.png"
+                alt="red dino head">
+             </picture>
         </a>
+
         <a href="https://addons.mozilla.org/">
-          <img>
+          <picture>
+           <source media="(main-width:500px)" srcset="C:/Users/admin/Documents/GitHub/davemccallme.github.io/scratch/splash-page/firefox-addons-120.jpg">
+           <img src="firefox-addons-400.jpg"
+           alt="puzzle pieces of mozilla logo">
+        </picture> 
         </a>
+
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+            <picture>
+                <source media="(main-width:500px)" srcset="mozilla-dinosaur-head-120.jpg">
+                <img src="mdn.svg"
+                alt="white dino head on blue map">
+             </picture> 
         </a>
+
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
-      </div>
+        <picture>
+            <source media="(max-width:600px)" srcset="red-panda-600.jpg">
+            <img src="red-panda-1200.jpg"  alt="red panda">
+         </picture> 
+    </div>
 
     </main>
   </body>
