@@ -1,0 +1,27 @@
+html {
+    background-color: rgb(0, 70, 128);
+    font-size: 20px;
+  }
+  
+  ul {
+    background: rgb(0, 153, 255);
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+
+  form, li, p, h1, h2, h3 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #fffbfbb9;
+  }
+
+  button {
+    margin: 1em;
+    padding: .5em;
+    width: 10em;
+    border-radius: 10px;
+    
+  }
