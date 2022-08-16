@@ -1,14 +1,24 @@
 html {
-    background-color: green;
+    background-color: rgb(44, 0, 0);
     font-size: 20px;
   }
-  
-  ul {
-    background: red;
-    padding: 10px;
-    border: 1px solid black;
-  }
-  
-  li {
-    margin-left: 20px;
-  }
+
+
+ul, p {
+  background: rgb(136, 0, 0);
+  padding: 10px;
+ 
+}  
+h1  {
+  background: rgb(136, 0, 0);
+  border: 1px solid black;
+  color: rgb(50,0,0);
+  font-weight: bold;
+}
+
+li {
+  margin-left: 20px;
+}
+li:hover {
+  color:hotpink;
+}  
