@@ -1,0 +1,27 @@
+{
+    "name": "NASA picture of the day viewer",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "An extension to display the NASA picture of the day.",
+    "icons":{
+        "128": "icons/Nasa-Logo-128px.png"
+    },
+    "action" :{
+        "default_popup": "popup/popup.html"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+            "<all_urls>"
+            ],
+            "js": ["lib/jquery.min.js","content-scripts/content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["images/stars.jpeg"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
