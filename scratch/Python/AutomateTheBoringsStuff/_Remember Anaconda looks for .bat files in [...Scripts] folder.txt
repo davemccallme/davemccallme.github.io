@@ -1,0 +1,20 @@
+Run Anaconda Powershell Prompt
+
+Store .bat files in C:\Anaconda3\Scripts for Anaconda to read and execute
+
+
+example: hello.bat file
+
+"
+@echo off
+py.exe C:\Anaconda3\Scripts\MyPythonScripts\hello.py %* 
+pause
+"
+
+is stored in 
+
+C:\Anaconda3\Scripts\hello.bat
+
+and ran in
+
+Anaconda Powershell Prompt
