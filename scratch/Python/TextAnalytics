@@ -1,0 +1,51 @@
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+
+
+import os
+
+# Get the current working directory
+cwd = os.getcwd()
+
+# Define the path to the file
+filepath = os.path.join(cwd, 'path', 'to', 'file.txt')
+
+# Open the file and read the contents into a string variable
+with open(filepath, 'r') as file:
+    text = file.read()
+
+# Print the text to make sure it was loaded correctly
+print(text)
+# Example text
+#text = "The quick brown fox jumped over the lazy dog. The dog slept all day."
+
+# Tokenization
+tokens = word_tokenize(text)
+
+# Stop word removal
+stop_words = set(stopwords.words('english'))
+filtered_tokens = [word for word in tokens if not word in stop_words]
+
+# Stemming and Lemmatization
+lemmatizer = WordNetLemmatizer()
+stemmed_tokens = [lemmatizer.lemmatize(word) for word in filtered_tokens]
+
+# Part-of-speech (POS) tagging
+pos_tags = nltk.pos_tag(stemmed_tokens)
+
+# Named entity recognition (NER)
+ner_tags = nltk.ne_chunk(pos_tags)
+
+# Sentiment analysis
+from textblob import TextBlob
+sentiment = TextBlob(text).sentiment
+
+# Output the results
+print("Original text: ", text)
+print("Filtered tokens: ", filtered_tokens)
+print("Stemmed tokens: ", stemmed_tokens)
+print("POS tags: ", pos_tags)
+print("NER tags: ", ner_tags)
+print("Sentiment: ", sentiment)
