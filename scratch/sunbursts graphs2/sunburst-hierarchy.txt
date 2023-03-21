@@ -55,7 +55,6 @@ data = [
             {"id": "Home Energy Checkup", "parent": "Usage and Rates", "value": 362420},
             {"id": "Online Rate Enrollment", "parent": "Usage and Rates", "value": 140820},
             {"id": "Compare My Bills UPDATED", "parent": "Usage and Rates", "value": 1310655},
-    
     {"id": "Call Center - IVR", "parent": "", "value": 7987000},
         {"id": "Payments (PaybyPhone)", "parent": "Call Center - IVR", "value": 4474000},
         {"id": "Billing", "parent": "Call Center - IVR", "value": 1241000},
