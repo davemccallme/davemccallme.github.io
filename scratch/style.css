@@ -1,0 +1,36 @@
+.box {
+    border: 5px solid black;
+    border-radius: 10px
+  }
+  
+  h2 {
+    color: ;
+    opacity: 50%;
+    background-color:black;
+  }
+      
+  img {
+  background-image: url(“balloons.jpg”);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  }
+  
+  
+  
+  body {
+          background-color: #fff;
+          color: #333;
+          font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+          padding: 1em;
+          margin: 0;
+        }
+  
+        * {
+          box-sizing: border-box;
+        }
+        .box {
+          width: 500px;
+          padding: 0.5em;
+        }

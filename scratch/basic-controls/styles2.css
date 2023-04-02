@@ -1,0 +1,9 @@
+li em {
+    color: rebeccapurple;
+    font-size: large;
+}
+
+h1 + p {
+    font-size: 200%;
+}
+    

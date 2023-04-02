@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        span.alert {
+        border: 1px solid grey;
+        }
+        #special {
+        background: yellow;
+        }
+        
+        span.alert.stop{
+        background: red;
+        }
+        span.alert.go{
+        background: green;
+        }
+
+        a {
+        border: 5px solid grey;
+        }
+
+
+     
+        .container::first-line  {
+        color: red;
+        }
+
+        p:first-of-type {
+        font-size: 150%;
+        }
+
+            a:link {
+        color: orange;
+        }
+
+        a:visited {
+        color: green;
+        }
+            
+        a:hover {
+        text-decoration: none;
+        }
+
+        tr:nth-child(odd){
+        background: white;
+        }
+
+        tr:nth-child(even){
+        background: #333;
+        color: white;
+        }
+
+       
+
+
+
+    </style>
+
+    <div class="container">
+        <h1>This is a heading</h1>
+        <p>Veggies es <span class="alert">bonus vobis</span>, proinde vos postulo <span class="alert stop">essum magis</span> kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+        <h2 id="special">A level 2 heading</h2>
+        <p>Gumbo beet greens corn soko endive gumbo gourd.</p>
+        <h2>Another level 2 heading</h2>
+        <p><span class="alert go">Parsley shallot</span> courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+
+        <div class="container">
+            <p>Veggies es <a href="http://example.com">bonus vobis</a>, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+            <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+            <table>
+              <tbody>
+                <tr>
+                  <th>Fruits</th>
+                  <th>Vegetables</th>
+                </tr>
+                <tr>
+                  <td>Apple</td>
+                  <td>Potato</td>
+                </tr>
+                <tr>
+                  <td>Orange</td>
+                  <td>Carrot</td>
+                </tr>
+                <tr>
+                  <td>Tomato</td>
+                  <td>Parsnip</td>
+                </tr>
+                <tr>
+                  <td>Kiwi</td>
+                  <td>Onion</td>
+                </tr>
+                <tr>
+                  <td>Banana</td>
+                  <td>Beet</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+              
+
+
+
+    </div>
+    
+    <ul>
+        <li><a href="https://example.com">Link 1</a></li>
+        <li><a href="http://example.com" title="Visit example.com">Link 2</a></li>
+        <li><a href="/contact">Link 3</a></li>
+        <li><a href="../contact/index.html">Link 4</a></li>
+    </ul>
+        
+        
+
+
+</body>
+</html>

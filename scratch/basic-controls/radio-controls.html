@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Basic controls: Task 2</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+      li{
+        color: white;
+      }
+      label {
+        color: black;
+      }
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Who is your favorite pony?</legend>
+        <ul>
+          <li>
+            <input type="radio" id="pinnkiePie" name="horse" value="pinkyPie" checked>
+            <label for="pinkiePie">Pinkie Pie</label>
+            
+          </li>
+          <li>
+            <input type="radio" id="rainbowDash" name="horse" value="rainbowDash">
+            <label for="rainbowDash">Rainbow Dash</label>
+
+          </li>
+          <li>
+            <input type="radio" id="twilightSparkle" name="horse" value="twilightSparkle">
+            <label for="twilightSparkle">Twilight Sparkle</label>
+
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Hotdog preferences</legend>
+        <ul>
+         
+          <li>  
+            <input type="checkbox" id="vegan" name="veggie" value="vegan">
+            <label for="vegan">Vegan</label>
+          </li>
+       
+          <li>
+            <input type="checkbox" id="onions" name="veggie" value="onions">
+            <label for="onions">Onions</label>
+          </li>
+        
+          <li>
+            <input type="checkbox" id="ketchup" name="condiment" value="ketchup">
+            <label for="ketchup">Ketchup</label>
+          </li>
+         
+          <li>
+            <input type="checkbox" id="mustard" name="condiment" value="mustard">
+            <label for="mustard">Mustard</label>
+          </li>
+          <li>
+            <input type="checkbox" id="relish" name="condiment" value="relish">
+            <label for="relish">Relish</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button>Submit</button>
+    </form>
+  </body>
+
+</html>

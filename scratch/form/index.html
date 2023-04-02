@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+
+    <!--Form Fill Tools
+        <form action=""> </form>
+        <label for=""> </label>
+        <input type="text">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button> </button>
+    -->
+    <style>
+        form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        }
+
+        ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        }
+
+        form li + li {
+        margin-top: 1em;
+        }
+
+        label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+        }
+
+        input,
+        textarea {
+        /* To make sure that all text fields have the same font settings
+            By default, textareas have a monospace font */
+        font: 1em sans-serif;
+
+        /* Uniform text field size */
+        width: 300px;
+        box-sizing: border-box;
+
+        /* Match form field borders */
+        border: 1px solid #999;
+        }
+
+        input:focus,
+        textarea:focus {
+        /* Additional highlight for focused elements */
+        border-color: #000;
+        }
+
+        textarea {
+        /* Align multiline text fields with their labels */
+        vertical-align: top;
+
+        /* Provide space to type some text */
+        height: 5em;
+        }
+
+        .button {
+        /* Align buttons with the text fields */
+        padding-left: 90%; /* same size as the label elements */
+        }
+
+        button {
+        /* This extra margin represent roughly the same space as the space
+            between the labels and their text fields */
+        margin-left: 1em;
+        
+        }
+
+    </style>
+    <form action="fill-form-page" method="post"> 
+
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" name="mail" id="user_email">
+            </li>
+            <li>
+                <label for="msg">Message:</label>
+                <textarea 
+                    name="user_message"
+                    id="msg" 
+                    cols="30"
+                    rows="10">
+                </textarea>
+            </li>
+            <button type="submit"> Send your message </button>
+
+        </ul>
+    </form>
+
+
+</body>
+</html>
