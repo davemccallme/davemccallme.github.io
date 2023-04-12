@@ -1,0 +1,44 @@
+Meeting Summary
+The meeting focused on the importance of reducing accounts receivable (AR) for the company's financial health, addressing challenges posed by regulatory constraints, and ensuring a positive customer experience with clear communication channels and easy payment methods. Participants recognized the impact of the pandemic on customer behaviors and discussed strategies implemented during this period, such as adding email and text messaging for past due customers, and promoting assistance programs for low-income customers.
+
+The team acknowledged the need for a comprehensive approach to change the regulatory ecosystem and rules of engagement in California. They discussed privacy and security concerns related to text message payments and the potential of implementing a communication tool that would signal to customers when their power is about to be disconnected. The meeting emphasized the importance of consistency and clear messaging to customers, as well as finding a balance between taking care of customers and maintaining the financial stability of the utility. The group also discussed the billion-dollar arrearages and the challenges in addressing the issue due to protected groups and payment plans. Vincent encouraged maximizing current abilities, taking risks, and thinking outside the box, and offered his assistance if needed.
+
+Challenges:
+
+Reducing accounts receivable (AR) within regulatory constraints
+Balancing customer experience with financial stability
+Adapting to the pandemic's impact on customer behaviors
+Addressing billion-dollar arrearages and protected groups/payment plans
+Privacy and security concerns related to text message payments
+Opportunities:
+
+Utilizing technology to improve communication and payment methods
+Shaping policy and strategy interactions with regulators and politicians
+Leveraging the company's position and overcoming brand and credibility challenges
+Improving criteria for determining at-risk customers
+Educating and promoting self-sufficiency among customers
+Customer Pain Points:
+
+Difficulty in understanding and managing overdue bills
+Inconvenient and unclear communication channels
+Complicated payment methods
+Potential service disconnections
+Potential Solutions:
+
+Implementing text message and email reminders for past due customers
+Developing a web redesign platform for text-to-pay functionality
+Implementing a communication tool signaling imminent service disconnections
+Promoting assistance programs for low-income customers
+Current State Technology:
+
+Email and text messaging for past due customers
+Dialer system for customer communication
+Future Plans:
+
+Implement click-to-pay via text
+Gather customer insights to improve services
+Work on policy changes with regulatory partners
+Continuously improve communication methods and customer segmentation
+Customer Segment to Focus on:
+
+Customers with overdue balances and a history of late payments

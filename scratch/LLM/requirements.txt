@@ -1,6 +1,6 @@
-%pip install openai
-%pip install nltk
-%pip install re
-%pip install --upgrade requests
-%pip install --upgrade certifi
+%pip install openai
+%pip install nltk
+%pip install re
+%pip install --upgrade requests
+%pip install --upgrade certifi
 %pip install -r requirements.txt
